@@ -138,11 +138,16 @@ footer p {
 .ai-nexus,
 .global-warming,
 .wheelchair,
-.shop {
+.shop,
+.sponsors,
+.cooperating {
   width: 100%;
   margin: 30px 30px;
 }
 .wheelchair {
+  width: 400px;
+}
+.sponsors {
   width: 400px;
 }
 
