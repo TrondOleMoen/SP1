@@ -18,6 +18,7 @@ main {
 body {
   display: flex;
   flex-direction: column;
+  background-color: #e2dcdc;
 }
 nav {
   display: flex;
@@ -135,9 +136,14 @@ footer p {
 .moon,
 .evolution-2,
 .ai-nexus,
-.global-warming {
+.global-warming,
+.wheelchair,
+.shop {
   width: 100%;
   margin: 30px 30px;
+}
+.wheelchair {
+  width: 400px;
 }
 
 .section-grid1 {
@@ -151,6 +157,14 @@ footer p {
   grid-template-columns: 2fr 1fr;
   gap: 40px;
 }
+.section-grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+
 /*Special Events*/
 .content-row-grid {
   display: grid;
@@ -181,6 +195,9 @@ footer p {
   align-items: center;
   text-align: center;
 }
+.section1-text2 {
+  line-height: 0.8;
+}
 .divider-blue,
 .divider-green,
 .divider-purple {
@@ -196,4 +213,14 @@ footer p {
 }
 .divider-purple {
   background-color: rgb(129, 20, 129);
+}
+
+/* Visit Us*/
+.science-museum {
+  width: 100%;
+  margin-top: 30px;
+}
+img:hover {
+  scale: 110%;
+  transition-duration: 1s;
 }
