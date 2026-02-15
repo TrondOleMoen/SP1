@@ -150,6 +150,10 @@ footer p {
 .sponsors {
   width: 400px;
 }
+.cooperating {
+  width: 100%;
+  margin: 0;
+}
 
 .section-grid1 {
   display: grid;
