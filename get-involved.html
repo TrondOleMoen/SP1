@@ -16,15 +16,26 @@
 </head>
 
 <body>
-    <nav>
-        <a href="index.html"><img src="./assets/images/logo.png" alt="logo" class="logo"> </a>
-        <ul>
+    <nav class="navbar">
+        <a href="index.html" class="navbar-logo">
+            <img src="./assets/images/logo.png" alt="community science museum logo">
+            <span>Community Science Museum</span>
+        </a>
+        </div>
+        <!-- checkbox toggle -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="navbar-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="navbar-menu">
             <li><a href="explore.html">Explore</a></li>
             <li><a href="visit-us.html">Visit Us</a></li>
             <li><a href="exhibits.html">Exhibits</a></li>
             <li><a href="special-events.html">Special Events</a></li>
             <li><a href="get-involved.html">Get Involved</a></li>
-        </ul>
+        </div>
     </nav>
     <main>
         <section class="content-row">
@@ -39,7 +50,7 @@
             </div>
             <img src="./assets/images/sponsors.webp" alt="Sponsors and donations" class="sponsors">
         </section>
-        <img src="./assets/images/cooperation.webp" alt="Intern and volunteer cooperating" class="cooperating">
+
         <section class="section-column1">
             <div class="section1-text">
                 <h2>Volunteer</h2>
@@ -50,6 +61,7 @@
                     You can help volunteer in a number of different spheres. Please contact us if you'd like to find out
                     more about how you can get involved.</p>
             </div>
+            <img src="./assets/images/cooperation.webp" alt="Intern and volunteer cooperating" class="cooperating">
             <div class="section1-text">
                 <h2>Internships</h2>
                 <p>Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders

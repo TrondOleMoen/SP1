@@ -16,15 +16,26 @@
 </head>
 
 <body>
-    <nav>
-        <a href="index.html"><img src="./assets/images/logo.png" alt="logo" class="logo"> </a>
-        <ul>
+    <nav class="navbar">
+        <a href="index.html" class="navbar-logo">
+            <img src="./assets/images/logo.png" alt="community science museum logo">
+            <span>Community Science Museum</span>
+        </a>
+        </div>
+        <!-- checkbox toggle -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="navbar-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="navbar-menu">
             <li><a href="explore.html">Explore</a></li>
             <li><a href="visit-us.html">Visit Us</a></li>
             <li><a href="exhibits.html">Exhibits</a></li>
             <li><a href="special-events.html">Special Events</a></li>
             <li><a href="get-involved.html">Get Involved</a></li>
-        </ul>
+        </div>
     </nav>
     <main>
         <section class="section1">
@@ -37,11 +48,11 @@
                     exploring
                     the wonders of science.</P>
             </div>
-            <img src="assets/images/museum-inside-old.jpg" alt="Old museum inside">
+            <div class="content"> <img src="assets/images/museum-inside-old.jpg" alt="Old museum inside"></div>
         </section>
         <div class="divider-blue"></div>
-        <div class="content-image-row">
-            <img src="assets/images/astronaught.jpg" alt="Astronaught">
+        <div class="section-grid2">
+            <div class="content"><img src="assets/images/astronaught.jpg" alt="Astronaught"> </div>
             <div class="content-text">
                 <h2>Visiting Professor of Aeronautics</h2>
                 <p>It is our pleasure to announce that
@@ -52,7 +63,7 @@
             </div>
         </div>
 
-        <section class="section2">
+        <section>
             <h2>Energetica Exhibition on Loan</h2>
             <P>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the
                 Community

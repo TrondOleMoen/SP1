@@ -16,28 +16,31 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-left">
-            <ul>
-                <li><a href="index.html"><img src="./assets/images/logo.png" alt="logo" class="logo"> </a></li>
-                <li>
-                    <p class="CSM">Community Science Museum</p>
-                </li>
-            </ul>
+    <nav class="navbar">
+        <a href="index.html" class="navbar-logo">
+            <img src="./assets/images/logo.png" alt="community science museum logo">
+            <span>Community Science Museum</span>
+        </a>
         </div>
-        <div class="nav-right">
-            <ul>
-                <li><a href="explore.html">Explore</a></li>
-                <li><a href="visit-us.html">Visit Us</a></li>
-                <li><a href="exhibits.html">Exhibits</a></li>
-                <li><a href="special-events.html">Special Events</a></li>
-                <li><a href="get-involved.html">Get Involved</a></li>
-            </ul>
+        <!-- checkbox toggle -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="navbar-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="navbar-menu">
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="visit-us.html">Visit Us</a></li>
+            <li><a href="exhibits.html">Exhibits</a></li>
+            <li><a href="special-events.html">Special Events</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+
         </div>
     </nav>
     <main>
         <div class="content-column">
-            <div class="content-image"><img src="./assets/images/museum-exploring.webp"></div>
+            <div class="hero"><img src="./assets/images/museum-exploring.webp"></div>
             <div class="content-text">
                 <h1>Explore</h1>
                 <h2>For Kids</h2>
@@ -59,7 +62,7 @@
                     get
                     to explore and experiment with our team of experts.</p>
             </div>
-            <div class="content-row">
+            <div class="section-grid1">
                 <div class="content-text-explore">
                     <h2>For Teachers</h2>
                     <p>As a community-driven museum, we want to work with schools to create places of learning and
@@ -76,8 +79,8 @@
                         your
                         students through for a visit.</p>
                 </div>
-
-                <div class="content-image-row"><img src="./assets/images/museum-teachers.webp"></div>
+                <img src="./assets/images/museum-teachers.webp" alt="Adults in amazement in museum"
+                    class="museum-teachers">
             </div>
             <div class="content-column">
                 <div class="content-text-explore">
