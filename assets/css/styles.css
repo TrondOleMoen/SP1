@@ -116,7 +116,6 @@ footer p {
 .content img {
   width: 100%;
   border-radius: 10px;
-  max-height: fit-content;
 }
 .content p,
 h1,
@@ -181,9 +180,6 @@ h3 {
 }
 .moon {
   margin: 10px;
-}
-.sponsors {
-  width: 400px;
 }
 .cooperating {
   margin: 0;
@@ -347,6 +343,8 @@ img:hover {
     width: 100%;
   }
   .navbar {
+    display: flex;
+    flex-direction: column;
     width: 100%;
   }
   /*
