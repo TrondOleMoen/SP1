@@ -344,7 +344,6 @@ img:hover {
   }
   .navbar {
     display: flex;
-    flex-direction: column;
     width: 100%;
   }
   /*
