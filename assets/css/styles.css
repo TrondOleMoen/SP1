@@ -69,6 +69,18 @@ h2 {
 .navbar-menu a:hover {
   color: white;
 }
+/*Menu (UL/LI)*/
+.navbar-menu ul {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navbar-menu li {
+  margin: 0;
+  padding: 0;
+}
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -340,6 +352,14 @@ iframe {
   }
   #menu-toggle:checked ~ .navbar-menu {
     display: flex;
+  }
+  .navbar-menu ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .navbar-menu li a {
+    display: block;
+    padding: 10px 8px;
   }
   .section-grid1,
   .section-grid2,
