@@ -49,6 +49,7 @@ h2 {
   height: 40px;
   width: auto;
 }
+
 /*Logo Text*/
 .navbar-logo span {
   color: black;
@@ -121,6 +122,15 @@ footer p {
   width: 100%;
   border-radius: 10px;
   box-shadow: 10px 5px 1px black;
+}
+
+img:hover {
+  scale: 105%;
+  transition-delay: 1.5s;
+  transition-duration: 4s;
+}
+.black-hole:hover {
+  scale: 100%;
 }
 .content p,
 h1,
@@ -285,13 +295,6 @@ iframe {
   justify-content: center;
   align-items: center;
 }
-
-img:hover {
-  scale: 105%;
-  transition-delay: 1.5s;
-  transition-duration: 4s;
-}
-
 /* HAMBURGER */
 #menu-toggle {
   display: none;
@@ -311,6 +314,9 @@ img:hover {
 /* MOBILE */
 @media (max-width: 768px) {
   .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     padding: 12px 16px;
   }
   .navbar-toggle {
@@ -318,6 +324,7 @@ img:hover {
   }
   .navbar-menu {
     position: absolute;
+    z-index: 1001;
     top: 100%;
     left: 0;
     right: 0;
@@ -357,11 +364,11 @@ img:hover {
     display: flex;
     width: 100%;
   }
-  /*
+}
+/*
   .logo {
     display: flex;
     flex-wrap: wrap;
     width: 50px;
   }
     */
-}
