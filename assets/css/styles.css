@@ -168,6 +168,10 @@ h3 {
   align-items: center;
   margin: 20px;
 }
+.section,
+p {
+  text-align: center;
+}
 .evolution,
 .moon,
 .evolution-2,
